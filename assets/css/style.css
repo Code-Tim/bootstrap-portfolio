@@ -96,6 +96,10 @@ body {
   nav a:first-child {
     border-left: 0 none;
   }
+
+  .Navlinks {
+    left: 33px;
+  }
   
   /* footer */
   
