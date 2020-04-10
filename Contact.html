@@ -42,22 +42,21 @@
     <section class="main-section">
       <h1>Contact</h1>
 
-      <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
+      <form>
+        <div class="form-group">
+            <label for="enterName">Name</label>
+            <input type="text" class="form-control" id="EnterName" aria-describedby="nameHelp" placeholder="First and Last Name">
+        </div>
+        <div class="form-group">
+          <label for="enterEmai">Email address</label>
+          <input type="email" class="form-control" id="enterEmai" aria-describedby="emailHelp" placeholder="example@me.com">
+          <small id="emailHelp" class="form-text text-muted">We will never share your information with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="commentField">Comments</label>
+            <textarea class="form-control" id="commentField" rows="3" placeholder="Please type any comments here."></textarea>
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </form>
 
     </section>
