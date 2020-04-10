@@ -216,5 +216,13 @@ body {
     border: 0 none;
   }
 
+  #navbarNav {
+    background-color: #ffffff;
+  }
+
+  .bg-light {
+    background-color: #ffffff!important;
+}
+
   
   
